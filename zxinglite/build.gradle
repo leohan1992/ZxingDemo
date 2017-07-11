@@ -1,7 +1,6 @@
 apply plugin: 'com.android.library'
 apply plugin: 'com.novoda.bintray-release'
 
-group = 'com.github.leohan1992'
 android {
     compileSdkVersion 24
     buildToolsVersion '25.0.0'
@@ -34,5 +33,5 @@ publish {
     artifactId = 'ZxingLite'//项目名称
     publishVersion = '1.0.0'//版本号
     desc = 'a simple and lite Zxing library'
-    website = 'https://github.com/leohan/ZxingLite'
+    website = 'https://github.com/leohan1992/ZxingLite'
 }
